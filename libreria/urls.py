@@ -11,4 +11,6 @@ from . import views
 # "inicio" es el nombre de la vista que declaramos en views.py
 urlpatterns = [
     path('', views.inicio, name='inicio'),
+    # Crear acceso a Nosotros
+    path('nosotros', views.nosotros, name='nosotros'),
 ]
