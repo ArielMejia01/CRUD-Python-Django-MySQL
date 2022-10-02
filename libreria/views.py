@@ -18,3 +18,7 @@ def nosotros(request):
 # Acceder a libros
 def libros(request):
     return render(request, 'libros/index.html')
+
+# Crear libro
+def crear(request):
+    return render(request, 'libros/crear.html')

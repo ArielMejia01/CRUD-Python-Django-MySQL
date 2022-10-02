@@ -15,4 +15,6 @@ urlpatterns = [
     path('nosotros', views.nosotros, name='nosotros'),
     # Acceder a libros
     path('libros', views.libros, name='libros'),
+    # Crear libros
+    path('libros/crear', views.crear, name='crear'),
 ]
