@@ -22,3 +22,7 @@ def libros(request):
 # Crear libro
 def crear(request):
     return render(request, 'libros/crear.html')
+
+# Editar libro
+def editar(request):
+    return render(request, 'libros/editar.html')
