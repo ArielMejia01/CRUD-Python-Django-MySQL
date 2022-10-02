@@ -14,3 +14,7 @@ def inicio(request):
 # uso de render.
 def nosotros(request):
     return render(request, 'paginas/nosotros.html')
+
+# Acceder a libros
+def libros(request):
+    return render(request, 'libros/index.html')

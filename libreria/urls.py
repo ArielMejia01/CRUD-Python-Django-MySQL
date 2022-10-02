@@ -13,4 +13,6 @@ urlpatterns = [
     path('', views.inicio, name='inicio'),
     # Crear acceso a Nosotros
     path('nosotros', views.nosotros, name='nosotros'),
+    # Acceder a libros
+    path('libros', views.libros, name='libros'),
 ]
