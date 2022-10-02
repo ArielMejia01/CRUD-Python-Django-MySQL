@@ -8,7 +8,7 @@ from django.http import HttpResponse
 # Declarar funcion que nos permita imprimir un
 # mensaje al usuario
 def inicio(request):
-    return HttpResponse("<h1>Bienvenido a mi sistema</h1>")
+    return render(request, 'paginas/inicio.html')
 
 # Nosotros necesitamos acceder al archivo html asi que hacemos
 # uso de render.
